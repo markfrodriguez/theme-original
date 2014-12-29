@@ -656,5 +656,6 @@ footer {
 
 .searchBox {
   width: 50%;
+  display: inline;
 }
 

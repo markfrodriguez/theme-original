@@ -75,18 +75,18 @@
       <div class="navbar-inner">
         <div class="container">
           <div class="row">
-            <div class="span10 offset1" style="inline-block;">
+            <div class="span10 offset1">
               <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
               <a class="brand" href="/">{{ site.name }}</a>
-              <div class="searchBox" style="inline-block;">
+              <div class="searchBox">
                 <gcse:searchbox-only newWindow=true></gcse:searchbox-only>
               </div>
               {% if not is_login %}
-              <div class="nav-collapse collapse" style="inline-block;">
+              <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
                   {% if pages %}
                   {% for page in pages %}
