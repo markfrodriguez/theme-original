@@ -82,7 +82,9 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="brand" href="/">{{ site.name }}</a>
-              <li><gcse:searchbox-only newWindow=true></gcse:searchbox-only></li>
+              <div class="searchBox">
+                <gcse:searchbox-only newWindow=true></gcse:searchbox-only>
+              </div>
               {% if not is_login %}
               <div class="nav-collapse collapse">
                 <ul class="nav pull-right">

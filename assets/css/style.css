@@ -653,3 +653,8 @@ footer {
   line-height: 10pt;
   padding: 7px;
 }
+
+.searchBox {
+  width: 50%;
+}
+
