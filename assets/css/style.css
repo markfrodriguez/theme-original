@@ -211,7 +211,7 @@ p {
 a.brand,
 a.brand:link,
 a.brand:visited {
-  font-size: 20px;
+  font-size: 36px;
   color: #ffffff;
   text-shadow: none;
   text-transform: uppercase;
@@ -234,6 +234,7 @@ a.brand:visited:hover {
 .nav li.active:hover a:link,
 .nav li.active:hover a:visited,
 .nav {
+  font-size: 18px;
   color: #ffffff;
   text-shadow: none;
   background: none;
