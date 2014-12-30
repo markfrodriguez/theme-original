@@ -214,7 +214,7 @@ a.brand:visited {
   font-size: 36px;
   color: #ffffff;
   text-shadow: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 1px;
   font-weight: 700;
 }
